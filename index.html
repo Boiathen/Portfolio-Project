@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="background-for-home">
+    <div id="sidebar">
+      <div class="toggle-btn" onclick="show()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul>
+        <li><a class="sidebar-options" href="#homepanel">Home</a></li>
+        <li><a class="sidebar-options" href="#aboutme">About Me</a></li>
+        <li><a class="sidebar-options" href="#networking">Why Networking</a></li>
+        <li><a class="sidebar-options" href="#skillspanel">My Knowledge</a></li>
+        <li><a class="sidebar-options" href="#projects">Projects</a></li>
+        <li><a class="sidebar-options" href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+    <script>
+      function show() {
+        document.getElementById('sidebar').classList.toggle('active');
+      }
+    </script>
+
+    <div id="homepanel" class="port-intro">
+      <div class="port-intro-pfp">
+        <img src="https://i.ibb.co/phdN7dW/IMG-0186.jpg" class="pfp">
+        <h1 class="port-header"> Matthew Fox </h1>
+        <h2 class="pfp-caption"> Welcome to my portfolio!</h2>
+        <a href="#aboutme" class="Scroll-Down"> <img
+            src="https://www.pngkey.com/png/full/171-1710445_home-the-platform-yellow-down-arrow-icon-png.png"
+            class="down-arrow"></a>
+      </div>
+    </div>
+  </div>
+  <div class="grad-test">
+
+    <div id="aboutme" class="about-me-flex1 ">
+      <div class="about-me-text">
+        <h2 class="about-me-title"> About Me </h2>
+        <p class="about-me-para"> 
+          I am 17 and have always lived in Evansville Indiana, but in my early elementary school days, I moved between 4 different schools. These moves made me develop a knack for easily conforming to new environments and forcing me to become an extrovert. When I finally landed at Scott in the 3rd grade, I made friends that are still close to me today, even with some of them being states away. We would play in person at school and then play games or talk online when we got home. Going online with my friends made me interested in the process in which long-distance communication was possible. I also loved LEGO as a kid, causing me to only enjoy hands-on activities. Due to these things happening I am a fast learner, so once I do it a couple of times, I can do it again and again. 
+
+        </p>
+      </div>
+      <img src="https://i.ibb.co/RCLSXDr/pool.jpg" class="about-me-murray">
+    </div>
+
+    <div id="networking" class="about-me-flex">
+      <div class="about-me-text">
+        <h2 class="about-me-title"> Why Networking? </h2>
+        <p class="about-me-para"> I am a rising senior at North High School. Prior to my Junior year, I was selected for the Cisco Networking Program at the Southern Indiana Career and Technical Center (SICTC). While at SICTC my teacher, Mr. Devault, ignited my passion for networking. In this class, I did a lot of things, but one that stood out was when I completed a lab on Dynamic Host Configuration Protocol (DHCP). Within the DHCP lab I created and programmed a network of switches, routers, and computers perfectly. The success I achieved showed me that networking was fun and I was good at it. That experience solidified my future goals to attend Murray State University, major in Cybersecurity Management, and obtain my CCNA. Doing so would allow me to achieve my dream job of being a Cisco network engineer (or a network engineer). 
+        </p>
+      </div>
+      <img src="https://pbs.twimg.com/profile_images/1331738482402881543/aATTL4cd_400x400.jpg" class="about-me-murray">
+    </div>
+
+    <div id="skillspanel" class="knowledge">
+      <div class="the-3-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfThxgxpqMEq8UYCYyQXPchs8N_CKHUM39Xw&usqp=CAU"
+          class="the-3">
+        <h3>HTML, CSS, & JavaScript</h3>
+        <p>During the NextTech Program, I learned to code using these three languages individually, and together, in
+          order to create websites, games, and much more. </p>
+      </div>
+      <div class="cisco-container">
+        <img src="https://www.touchpoint.com.au/wp-content/uploads/2021/03/cisco-news-blog-logo.jpg" class="cisco">
+        <h3>Cisco</h3>
+        <p>I  have a lot of experience in operating Cisco machines. I am knowledgable on how they function and communicate within and out of their networks. Since I took the Cisco Networking course, I only need about 1 and a half more semesters of learning to aquire my CCNA.</p>
+      </div>
+    </div>
+
+    <div id="projects" class="p-title">
+      <h2 class="pr-title">Portfolio</h2>
+      <div id="projects" class="projects-example">
+        <a href="https://boiathen.github.io/Social-Media-Layout/" target="_blank" class="linkimg">
+          <img src="https://png.pngtree.com/element_our/20190528/ourlarge/pngtree-social-icon-image_1130119.jpg"
+            class="project-1">
+        </a>
+
+        <a href="https://boiathen.github.io/Adventure-Game/" target="_blank" class="linkimg">
+          <img src="https://i.ibb.co/b5jMfR2/Car-Escape.jpg" class="project-2">
+        </a>
+        <a href="https://boiathen.github.io/FortuneTellerProject/" target="_blank" class="linkimg">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/000/187/343/non_2x/vector-fortune-teller-with-crystal-ball.jpg"
+            class="project-3">
+        </a>
+      </div>
+      <div id="contact" class="contact-me">
+        <h2 class="contact-info-head">Contact Me</h2>
+        
+        <p class="cont">812-708-2103<br> <br>mattfox4705@gmail.com</p>
+        <div class="logos">
+          <a href="https://github.com/Boiathen" target="_blank" class="logo">
+            <img src="https://ujasntkfphywizsdaapi.supabase.co/storage/v1/object/public/content/app_logos/e71493b6-3fb2-4532-b850-bc45b937142c.webp" class="logo-img">
+          </a>
+          <a href="https://www.linkedin.com/in/matthew-fox-660730242/" target="_blank" class="logo">
+          <img src="https://yt3.ggpht.com/9XmuxL_LL7CxAOOlbBgTnJIo2uHpoLKHhWzlPt7O49ULQmvBSJlxk1RpX3pJ8jkRBkD6p9BIRg=s900-c-k-c0x00ffffff-no-rj" class="logo-img logo-mid">
+         </a>
+           <a href="https://www.instagram.com/Boiathen/" target="_blank" class="logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png" class="logo-img">
+           </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+
+</body>
+
+</html>
